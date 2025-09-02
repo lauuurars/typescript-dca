@@ -27,7 +27,6 @@ function increaseLikeCount({id, likeCount, content, createdBy} : Post) {
     likeCount += 1
 }
 
-increaseLikeCount(1)
 
 const post1 = {
     id: 1,
